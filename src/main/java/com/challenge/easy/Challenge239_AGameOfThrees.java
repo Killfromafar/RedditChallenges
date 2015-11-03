@@ -37,19 +37,17 @@ public class Challenge239_AGameOfThrees
 {
 	public static void main(String[] args)
 	{
-		final String CHALLENGE_INPUT = "31337357";
+		final int CHALLENGE_INPUT = 31337357;
 
 		System.out.println("As a while loop: ");
 		doChallenge(CHALLENGE_INPUT);
 		System.out.println("--------------------------------------");
 		System.out.println("As a recursive method: ");
-		doChallengeAsRecursion(Integer.parseInt(CHALLENGE_INPUT));
+		doChallengeAsRecursion(CHALLENGE_INPUT);
 	}
 
-	private static void doChallenge(String challenge)
+	private static void doChallenge(int input)
 	{
-		long input = Long.parseLong(challenge);
-
 		while (input > 1)
 		{
 			StringBuilder sb = new StringBuilder();
