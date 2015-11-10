@@ -1,5 +1,10 @@
 package com.challenege.hard;
 
+import java.awt.Point;
+import java.io.File;
+
+import javafx.geometry.Point3D;
+
 /**
  * <b>Description</b> <br>
  * Our hero is lost in a dungeon. You will be given ASCII maps of a few floors, her starting
@@ -32,9 +37,9 @@ package com.challenege.hard;
  * #####<br>
  * <br>
  * #####<br>
- * # U#<br>
+ * #  U#<br>
  * # ###<br>
- * # ##<br>
+ * #  ##<br>
  * #####<br>
  * 
  * <br>
@@ -73,5 +78,14 @@ package com.challenege.hard;
  */
 public class Challenge238_SearchingADungeon
 {
+
+	public static void main(String[] args)
+	{
+		doChallenge("ChallengeInput238.txt");
+	}
+
+	private static void doChallenge(String fileLocation)
+	{
+	}
 
 }
