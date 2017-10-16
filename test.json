@@ -1,0 +1,15 @@
+{
+  "test1": [
+    {
+      "test2": 1,
+      "test3": "hello",
+      "test4": true,
+      "test5": false,
+      "test6": "true",
+      "test7": 'false'
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
